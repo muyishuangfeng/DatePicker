@@ -12,14 +12,7 @@
 
 
 
-     allprojects {
-      repositories {
-        google()
-        jcenter()
-        maven { url 'https://jitpack.io' }
-     }
-    }
-
+      maven { url 'https://jitpack.io' }
 
     
 + 2 、__app 目录下的build下__
