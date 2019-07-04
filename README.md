@@ -12,12 +12,14 @@
 
 
      allprojects {
-    repositories {
+      repositories {
         google()
         jcenter()
         maven { url 'https://jitpack.io' }
      }
     }
+    
+    
 + 2 、__app 目录下的build下__
 
       implementation 'com.github.muyishuangfeng:DatePicker:1.0.0'
