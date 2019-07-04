@@ -11,6 +11,7 @@
  + 1 、__project 目录下的build__
 
 
+
      allprojects {
       repositories {
         google()
@@ -18,7 +19,8 @@
         maven { url 'https://jitpack.io' }
      }
     }
-    
+
+
     
 + 2 、__app 目录下的build下__
 
