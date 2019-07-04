@@ -8,11 +8,17 @@
 
 ### 引用
 
- + 1 、__project 目录下的build__
+ + 1 、__project 目录下的build下__
 
 
-
+         allprojects {
+         repositories {
+         google()
+         jcenter()
          maven { url 'https://jitpack.io' }
+         }
+       }
+         
       
 
     
